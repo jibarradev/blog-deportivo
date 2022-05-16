@@ -1,0 +1,142 @@
+[
+    {
+        "nombre": "gabriel arias",
+        "imagen": "arias",
+        "posicion": "arquero"
+    },
+    {
+        "nombre": "chila gomez",
+        "imagen": "chila",
+        "posicion": "arquero"
+    },
+    {
+        "nombre": "tagliamonte",
+        "imagen": "tagliamonte",
+        "posicion": "arquero"
+    },
+    {
+        "nombre": "juarez",
+        "imagen": "juarez",
+        "posicion": "arquero"
+    },
+    {
+        "nombre": "emiliano insua",
+        "imagen": "insua",
+        "posicion": "defensor"
+    },
+    {
+        "nombre": "ivan pillud",
+        "imagen": "pillud",
+        "posicion": "defensor"
+    },
+    {
+        "nombre": "gonzalo piovi",
+        "imagen": "piovi",
+        "posicion": "defensor"
+    },
+    {
+        "nombre": "juan caceres",
+        "imagen": "caceres",
+        "posicion": "defensor"
+    },
+    {
+        "nombre": "leonardo sigali",
+        "imagen": "sigali",
+        "posicion": "defensor"
+    },
+    {
+        "nombre": "galgo schelotto",
+        "imagen": "schelotto",
+        "posicion": "defensor"
+    },
+    {
+        "nombre": "prado",
+        "imagen": "prado",
+        "posicion": "defensor"
+    },
+    {
+        "nombre": "lucas orban",
+        "imagen": "orban",
+        "posicion": "defensor"
+    },
+    {
+        "nombre": "facundo mura",
+        "imagen": "mura",
+        "posicion": "defensor"
+    },
+    {
+        "nombre": "eugenio mena",
+        "imagen": "mena",
+        "posicion": "defensor"
+    },
+    {
+        "nombre": "matias rojas",
+        "imagen": "rojas",
+        "posicion": "mediocampista"
+    },
+    {
+        "nombre": "anibal moreno",
+        "imagen": "moreno",
+        "posicion": "mediocampista"
+    },
+    {
+        "nombre": "lolo miranda",
+        "imagen": "miranda",
+        "posicion": "mediocampista"
+    },
+    {
+        "nombre": "mauricio martinez",
+        "imagen": "martinez",
+        "posicion": "mediocampista"
+    },
+    {
+        "nombre": "jonatan gomez",
+        "imagen": "gomez",
+        "posicion": "mediocampista"
+    },
+    {
+        "nombre": "fabricio dominguez",
+        "imagen": "fabricio",
+        "posicion": "mediocampista"
+    },
+    {
+        "nombre": "nery dominguez",
+        "imagen": "dominguez",
+        "posicion": "mediocampista"
+    },
+    {
+        "nombre": "edwin cardona",
+        "imagen": "cardona",
+        "posicion": "mediocampista"
+    },
+    {
+        "nombre": "charly alcaraz",
+        "imagen": "alcaraz",
+        "posicion": "mediocampista"
+    },
+    {
+        "nombre": "chancalay",
+        "imagen": "chancalay",
+        "posicion": "delantero"
+    },
+    {
+        "nombre": "copetti",
+        "imagen": "copetti",
+        "posicion": "delantero"
+    },
+    {
+        "nombre": "correa",
+        "imagen": "correa",
+        "posicion": "delantero"
+    },
+    {
+        "nombre": "garre",
+        "imagen": "garre",
+        "posicion": "delantero"
+    },
+    {
+        "nombre": "hauche",
+        "imagen": "hauche",
+        "posicion": "delantero"
+    }
+]

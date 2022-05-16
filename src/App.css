@@ -1,0 +1,24 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (min-width: 768px) {
+  .app {
+    display: flex;
+  }
+}

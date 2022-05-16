@@ -1,0 +1,34 @@
+.articulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.articulo-contenedor {
+  width: 90%;
+}
+.articulo-contenedor img {
+  width: 100%;
+}
+.articulo-contenedor h2 {
+  font-size: 1.8rem;
+}
+.articulo-contenedor p {
+  font-size: 1.5rem;
+}
+
+.titulo-principal {
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .articulo {
+    margin-left: 30rem;
+    width: 80%;
+  }
+  .articulo-contenedor h2 {
+    font-size: 3rem;
+  }
+  .articulo-contenedor p {
+    font-size: 1.9rem;
+  }
+}

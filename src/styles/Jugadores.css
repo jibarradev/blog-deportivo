@@ -1,0 +1,44 @@
+.jugadores {
+  margin-top: 3rem;
+}
+
+.jugador {
+  border-top: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.jugador img {
+  margin: 1rem;
+  width: 20rem;
+  border-radius: 50%;
+}
+
+.jugador-texto h2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+.jugador-texto p {
+  font-size: 1.9rem;
+}
+.jugador-texto {
+  width: 30rem;
+  margin: 1rem;
+}
+
+
+@media (min-width: 768px) {
+  .jugador {
+    width: 90%;
+    margin-left: 37rem;
+    justify-content: space-around;
+  }
+  .jugador img {
+    width: 35rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  .jugador-texto {
+    width: 26rem;
+  }
+}
