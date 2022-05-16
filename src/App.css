@@ -24,5 +24,6 @@ p {
 @media (min-width: 768px) {
   .app {
     display: flex;
+    width: 100%;
   }
 }
