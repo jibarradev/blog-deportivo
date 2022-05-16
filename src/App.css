@@ -17,6 +17,10 @@ p {
   color: inherit;
 }
 
+.app {
+  width: 150%;
+}
+
 @media (min-width: 768px) {
   .app {
     display: flex;
