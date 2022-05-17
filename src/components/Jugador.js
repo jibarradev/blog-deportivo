@@ -1,4 +1,4 @@
-import '../styles/Jugadores.css';
+import '../App.css';
 
 export default function Jugador(props) {
   return (

@@ -1,8 +1,7 @@
-import '../styles/Home.css';
+import '../App.css';
 import { Link } from "react-router-dom";
 import Entrada from "../components/Entrada";
 import Aside from '../components/Aside';
-import Boton from '../components/Boton';
 
 
 export default function Home() {
@@ -17,9 +16,6 @@ export default function Home() {
         </Link>
         <Link className='link' to='gago-no-se-si-somos-candidatos'>
           <Entrada fondo='gago' titulo='"No se si somos candidatos, tenemos que competir"' />
-        </Link>
-        <Link to='un-futbol-que-enamora'>
-          <Boton textoBoton='Reciente' />
         </Link>
       </div> 
       <Aside />

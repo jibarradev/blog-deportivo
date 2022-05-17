@@ -1,4 +1,4 @@
-import '../styles/Articulo.css';
+import '../App.css';
 
 export default function Articulo(props) {
 	return (

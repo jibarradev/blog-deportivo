@@ -1,4 +1,4 @@
-import '../styles/Entrada.css';
+import '../App.css';
 
 export default function Entrada(props) {
   return ( 

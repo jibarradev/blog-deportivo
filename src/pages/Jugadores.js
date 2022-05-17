@@ -1,5 +1,5 @@
 import Jugador from '../components/Jugador';
-import '../styles/Jugadores.css';
+import '../App.css';
 import jugadoresJson from '../Jugadores.json';
 
 export default function Jugadores() {

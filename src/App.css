@@ -18,12 +18,308 @@ p {
 }
 
 .app {
-  width: 150%;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* HOME */
+
+.home {
+  margin-left: 30rem;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .home {
+    width: 90%;
+    margin-left: 0;
+    flex-direction: column;
+  }
+}
+
+/* HEADER */
+
+.header {
+  color: #fff;
+  background-color: rgba(122, 212, 234, 0.961);
+  padding: 5rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  position: fixed;
+}
+.header img {
+  width: 10rem;
+}
+.header nav {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 2rem;
+  height: 70%;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 30rem;
+    width: 100%;
+    position: inherit;
+  }
+  .header nav {
+    width: 30rem;
+    display: flex;
+    height: 25rem;
+    margin-top: 0;
+  }
+  .header img {
+    margin-left: 4rem;
+  }
+  .elemento-header {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    height: 127vh;
+  }
+}
+@media (min-width: 1280px) {
+  .header {
+    height: 101vh;
+  }
+}
+
+
+/* ENTRADA */
+
+.entrada-copetti {
+  background-image: url('img/copetti-independiente.jpg');
+}
+.entrada-hauche {
+  background-image: url('img/hauche-independiente.jpg');
+}
+.entrada-gago {
+  background-image: url('img/gago-independiente.jpg');
+}
+
+.entrada {
+  background-size: cover;
+  width: 70rem;
+  height: 40rem;
+  margin: 2rem auto 2rem auto;
+  color: #fff;
+}  
+.entrada h2 {
+  width: 100%;
+  height: 100%;
+  font-size: 3rem;
+  display: flex;
+  align-items: flex-end;
+  padding: 4rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.entrada h2:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+} 
+
+@media (max-width: 768px) {
+  .entrada {
+    width: 100%;
+    height: 24rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .entrada h2 {
+    font-size: 2rem;
+  }
+}
+ /* ASIDE */
+
+aside {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-basis: 1;
+  margin-left: 2rem;
+}
+.entrada-aside img {
+  width: 25rem;
+}
+
+.entrada-aside {
+  height: 30rem;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+.entrada-aside h3 {
+  font-size: 1.8rem;
+}
+.entrada-aside p {
+  font-size: 1.4rem;
+}
+
+@media (max-width: 768px) {
+  aside {
+    margin-left: 0;
+    margin-top: 2rem;
+    border-top: 1px solid #ddd;
+    width: 100%;
+  }
+  .enreada-aside img {
+    margin-top: 2rem;
+    width: 90%;
+  }
+  .entrada-aside {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* ARTICULO */
+.articulo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.articulo-contenedor {
+  width: 90%;
+}
+.articulo-contenedor img {
+  width: 100%;
+}
+.titulo-principal {
+  text-transform: uppercase;
+}
+.articulo-contenedor h2 {
+  font-size: 2.2rem;
+}
+.articulo-contenedor p {
+  font-size: 1.5rem;
 }
 
 @media (min-width: 768px) {
-  .app {
-    display: flex;
+  .articulo {
+    justify-content: center;
+    margin-left: 30rem;
     width: 100%;
+  }
+  .articulo-contenedor {
+    width: 90%;
+  }
+  .articulo-contenedor img {
+    width: 100%;
+  }
+  .articulo-contenedor h2 {
+    font-size: 3rem;
+  }
+  .articulo-contenedor p {
+    font-size: 1.9rem;
+  }
+}
+
+/* JUGADORES */
+.jugadores {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.jugador {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  padding-top: 2rem;
+}
+.jugador img {
+  width: 100%;
+  border-radius: 50%;
+}
+.jugador h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.jugador p {
+  font-size: 1.6rem;
+}
+
+@media (min-width: 768px) {
+  .jugadores {
+    width: 100%;
+    margin-left: 30rem;
+  }
+  .jugador img {
+    width: 50%;
+  }
+  .jugador h2 {
+    font-size: 3rem;
+  }
+  .jugador p {
+    font-size: 2.2rem;
+  }
+
+}
+
+/* PROXIMO PARTIDO */
+
+.proximo-partido {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.proximo-partido img {
+  width: 90%;
+  margin: 2rem;
+} 
+
+@media (min-width: 768px) {
+  .proximo-partido {
+    margin-left: 30rem;
+  }
+}
+
+@media (max-width: 280px) {
+  .header {
+    width: 110%;
+  }
+}
+
+@media (min-height: 1024px) {
+  .articulo {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 912px), (min-width: 820px){
+  .header {
+    height: 100%;
+  }
+  .articulo {
+    margin-left: 30rem;
   }
 }

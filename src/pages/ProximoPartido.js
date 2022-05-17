@@ -1,4 +1,4 @@
-import '../styles/ProximoPartido.css';
+import '../App.css';
 
 export default function ProximoPartido() {
   return (

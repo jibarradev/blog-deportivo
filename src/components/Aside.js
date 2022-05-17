@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import '../styles/Aside.css';
+import '../App.css';
 import EntradaAside from './EntradaAside';
 
 export default function Aside() {

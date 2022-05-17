@@ -1,4 +1,4 @@
-import '../styles/Aside.css';
+import '../App.css';
 
 export default function EntradaAside(props) {
   return (

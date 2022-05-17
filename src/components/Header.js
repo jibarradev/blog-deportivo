@@ -1,4 +1,4 @@
-import '../styles/Header.css';
+import '../App.css';
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -8,9 +8,9 @@ export default function Footer() {
         <img src={require(`../img/escudo.png`)} />
       </Link>
       <nav>
-        <Link className="link" to='/'>actualidad</Link>
-        <Link className="link" to='jugadores'>jugadores</Link>
-        <Link className="link" to='proximo-partido'>proximo partido</Link>
+        <Link className="link elemento-header" to='/'>actualidad</Link>
+        <Link className="link elemento-header" to='jugadores'>jugadores</Link>
+        <Link className="link elemento-header" to='proximo-partido'>proximo partido</Link>
       </nav>
     </header>
   );
